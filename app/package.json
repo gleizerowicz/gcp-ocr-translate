@@ -1,19 +1,19 @@
 {
-  "name": "nodejs-docs-samples-functions-ocr",
+  "name": "gcp-ocr-translate",
   "version": "0.0.1",
   "private": true,
   "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "author": "gleizerowicz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+    "url": "https://github.com/gleizerowicz/gcp-ocr-translate.git"
   },
   "engines": {
     "node": ">=4.3.2"
   },
   "scripts": {
     "lint": "samples lint",
-    "pretest": "npm run lint",
+    "disablepretest": "npm run lint",
     "test": "ava -T 20s --verbose test/*.test.js"
   },
   "dependencies": {
