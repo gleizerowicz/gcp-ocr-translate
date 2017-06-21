@@ -1,0 +1,3 @@
+gcloud beta functions deploy ocr-extract --stage-bucket functions-staging-image-translation-171413 --trigger-bucket request-image-translation-171413 --entry-point processImage
+gcloud beta functions deploy ocr-translate --stage-bucket functions-staging-image-translation-171413 --trigger-topic ocr-translate-request-topic --entry-point translateText
+gcloud beta functions deploy ocr-save --stage-bucket functions-staging-image-translation-171413 --trigger-topic ocr-translate-result-topic --entry-point saveResult

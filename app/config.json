@@ -1,0 +1,7 @@
+{
+  "RESULT_TOPIC": "ocr-translate-result-topic",
+  "RESULT_BUCKET": "result-image-translation-171413",
+  "TRANSLATE_TOPIC": "ocr-translate-request-topic",
+  "TRANSLATE": true,
+  "TO_LANG": ["en", "fr", "es", "ja", "ru"]
+}
